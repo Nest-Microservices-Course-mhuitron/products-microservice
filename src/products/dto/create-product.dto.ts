@@ -6,6 +6,9 @@ export class CreateProductDto {
     @IsString()
     public name: string;
 
+    // @IsString()
+    // public description: string;
+
     @IsNumber({
         maxDecimalPlaces: 4,
     })
